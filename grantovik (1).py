@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import pygame, random, sys
 from pygame.locals import *
 
@@ -182,24 +176,3 @@ while True: #этот цикл нужен чтобы отображать окн
     key_screen()
 
     gameOverSound.stop()
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
