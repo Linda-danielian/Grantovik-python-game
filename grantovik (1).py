@@ -28,7 +28,7 @@ def key_screen(): #бесконечный цикл который прерыва
                 return
 
 def player_enemy_contact(playerRect, enemies): #факт столкновения игрока с врагом, булево значение
-    for b in enemies: #проходим всех врагов и проверяем факт касания c использованием класса rect и метода colliderect (сильно проще, чем считать столкновения руками)
+    for b in enemies: #проходим всех врагов и проверяем факт касания c использованием объекта rect и метода colliderect (сильно проще, чем считать столкновения руками)
         if playerRect.colliderect(b['rect']):
             return True
     return False
